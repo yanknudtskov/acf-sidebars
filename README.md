@@ -12,10 +12,12 @@ Once the plugin is installed and activated you can add 'Sidebar Selector' fields
 
 In the template file the follwing code can be used to display a Sidebar Selector (Field name: sidebar)
 
+```
 if ( is_active_sidebar( get_field('sidebar') ) ) {
 
 	dynamic_sidebar( get_field('sidebar') );
 }
+```
 
 ?>
 
