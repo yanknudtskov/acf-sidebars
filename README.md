@@ -19,9 +19,6 @@ if ( is_active_sidebar( get_field('sidebar') ) ) {
 }
 ```
 
-?>
-
-
 ## Credits ##
 
 The plugin is built on the base of the v.4 plugin by Daniel Pataki (https://github.com/danielpataki/acf-sidebar-selector).
